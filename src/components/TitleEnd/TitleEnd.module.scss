@@ -1,0 +1,38 @@
+.root {
+  width: 297px;
+  height: 223px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: repeat(13, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  ul {
+    background-color: #fff;
+    color: #2b455c;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #9cd0ff;
+    height: 16px;
+  }
+
+  border: 1px solid #2e465c;
+}
+.index {
+  background-color: #fff;
+  font-size: 12px;
+}
+.title {
+  ul {
+  }
+  background-color: #fff;
+  font-size: 12px;
+}
+.number {
+  ul {
+  }
+
+  font-size: 12px;
+}

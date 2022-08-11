@@ -1,0 +1,20 @@
+@import "./libs/normalize";
+.App {
+  text-align: center;
+  display:flex
+}
+li{
+  margin-top: 50px;
+  margin-left: 15px;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+ul{
+  margin: 10px;
+  width: 67px;
+  height:36px;
+}
+
